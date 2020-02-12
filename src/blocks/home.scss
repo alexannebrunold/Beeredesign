@@ -6,7 +6,14 @@ body{
 .home{
   display: flex;
   align-self: center;
+  flex-direction: column;
   justify-content: space-evenly;
+  .home__img{
+    width: 257px;
+    height: 228px;
+    display: flex;
+    align-self: flex-end;
+  }
   .home__text{
     text-align: center;
   }

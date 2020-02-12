@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 16px;
   .fans__text{
     font-size: 14px;
     width: 256px;
@@ -16,5 +17,15 @@
     border-radius: 16px;
     color: #FFFFFF;
     font-size: 14px;
+    @include pc{
+      
+    }
+  }
+  .fans__img__Jaden{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 8px;
   }
 }
