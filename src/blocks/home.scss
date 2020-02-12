@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.home{
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  .home__text{
+    text-align: center;
+  }
+  .home__slogan{
+    font-size: 24px;
+    color: $fifth-color;
+  }
+  .home__concept{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .home__button{
+    background-color: $fifth-color;
+    width: 139px;
+    height: 41px;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+}
