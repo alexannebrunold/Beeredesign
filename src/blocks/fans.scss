@@ -9,6 +9,9 @@
     @include tab{
       font-size: 36px;
     }
+    @include pc{
+      font-size: 45px;
+    }
   }
   .fans__text{
     font-size: 14px;
@@ -31,6 +34,18 @@
         width: 165px;
         font-size: 16px;
     }
+    @include pc{
+      width: 200px;
+      height: 48px;
+    }
+  }
+  .fans__img{
+    @include pc{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
   }
   .fans__img__Jaden{
     display: flex;
@@ -38,5 +53,8 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 8px;
+  @include pc{
+    width: 250px;
+  }
   }
 }

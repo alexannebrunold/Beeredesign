@@ -18,9 +18,16 @@ body{
     height: 228px;
     display: flex;
     align-self: flex-end;
+    @include pc{
+      width: 440px;
+      height: 400px;
+    }
   }
   .home__text{
     text-align: center;
+    @include pc{
+      width: 300px;
+    }
   }
   .home__slogan{
     font-size: 24px;
