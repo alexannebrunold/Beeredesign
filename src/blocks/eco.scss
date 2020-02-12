@@ -1,0 +1,35 @@
+.eco{
+  margin-top: 48px;
+.eco__description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 14px;
+  .eco__vegan{
+    .eco__img__vegan{
+      width: 57px;
+      height: 58px;
+    }
+  }
+  .eco__chanvre{
+    .eco__img__chanvre{
+      width: 51px;
+      height: auto;
+    }
+  }
+  .eco__local{
+    .eco__img__local{
+      width: 47px;
+      height: auto;
+    }
+  }
+  .eco__lessimpact{
+    .eco__img__lessimpact{
+      width: 52px;
+      height: auto;
+    }
+  }
+}
+}
