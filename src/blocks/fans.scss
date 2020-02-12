@@ -1,0 +1,20 @@
+.fans{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  .fans__text{
+    font-size: 14px;
+    width: 256px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .fans__button{
+    background-color: $dark;
+    width: 139px;
+    height: 41px;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+}
