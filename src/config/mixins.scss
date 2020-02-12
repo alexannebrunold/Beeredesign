@@ -1,0 +1,19 @@
+// Responsive 
+
+@mixin smartphone {
+  @media (max-width: $smartphone) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media (min-width: $tab){
+    @content;
+  }
+}
+
+@mixin pc {
+  @media (min-width: $pc) {
+    @content;
+  }
+}
