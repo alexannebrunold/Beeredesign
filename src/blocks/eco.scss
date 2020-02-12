@@ -7,28 +7,59 @@
   justify-content: space-evenly;
   text-align: center;
   font-size: 14px;
+  @include tab{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    grid-gap: 8px;
+    font-size: 24px;
+  }
   .eco__vegan{
+    @include tab{
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
     .eco__img__vegan{
       width: 57px;
       height: 58px;
+      @include tab{
+        width: 83px;
+        height: 85px;
+      }
     }
   }
   .eco__chanvre{
+    @include tab{
+      grid-column: 2/2;
+      grid-row: 1/2;
+    }
     .eco__img__chanvre{
       width: 51px;
       height: auto;
+      @include tab{
+        width: 81px;
+        height: auto;
+      }
     }
   }
   .eco__local{
     .eco__img__local{
       width: 47px;
       height: auto;
+      @include tab{
+        width: 76px;
+        height: auto;
+      }
     }
   }
   .eco__lessimpact{
     .eco__img__lessimpact{
       width: 52px;
       height: auto;
+      @include tab{
+        width: 81px;
+        height: auto;
+      }
     }
   }
 }

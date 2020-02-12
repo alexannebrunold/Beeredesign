@@ -6,6 +6,9 @@
   .choice__title{
     font-size: 24px;
     text-align: center;
+    @include tab{
+      font-size: 36px;
+    }
   }
   .choice__customBlue{
     display: flex;
@@ -34,6 +37,12 @@
     border-radius: 16px;
     color: #FFFFFF;
     font-size: 14px;
+    text-align: center;
+    @include tab{
+      width: 165px;
+      font-size: 16px;
+      margin-top: 8px;
+    }
   }
   .choice__text{
     font-size: 18px;

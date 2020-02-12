@@ -8,6 +8,11 @@ body{
   align-self: center;
   flex-direction: column;
   justify-content: space-evenly;
+  @include tab{
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+  }
   .home__img{
     width: 257px;
     height: 228px;
@@ -20,10 +25,18 @@ body{
   .home__slogan{
     font-size: 24px;
     color: $fifth-color;
+    @include tab{
+      text-align: left;
+      font-size: 36px;
+    }
   }
   .home__concept{
     font-size: 12px;
     line-height: 16px;
+    @include tab{
+      text-align: left;
+      font-size: 18px;
+    }
   }
   .home__button{
     background-color: $fifth-color;
@@ -32,5 +45,10 @@ body{
     border-radius: 16px;
     color: #FFFFFF;
     font-size: 14px;
+    border: none;
+    @include tab{
+      width: 165px;
+      font-size: 16px;
+    }
   }
 }

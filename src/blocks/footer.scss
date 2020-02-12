@@ -9,5 +9,8 @@
     font-size: 12px;
     color: white;
     padding-top: 100s;
+    @include tab{
+      font-size: 14px;
+    }
   }
 }
