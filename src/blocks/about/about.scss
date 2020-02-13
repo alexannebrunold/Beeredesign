@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  .about__quote{
+    h1{
+      font-size: 36px;
+      font-style: normal;
+    }
+    font-size: 32px;
+    font-style: italic;
+  }
+  .about__title{
+    font-size: 30px;
+  }
+  .about__text{
+    font-size: 18px;
+  }
+.about__concept{
+  width: 56%
+}
+.about__vegan__local__naturel{
+  width: 56%;
+}
+}
